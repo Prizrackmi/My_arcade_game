@@ -9,4 +9,6 @@ class Settings:
         self.bullet_speed = 2
         self.bullet_width = 4
         self.bullet_height = 20
+        self.bullets_allowd = 4
+        self.bg_color_def = (0, 32, 192)
 
