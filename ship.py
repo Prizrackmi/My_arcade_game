@@ -29,3 +29,8 @@ class Ship():
     def blitme(self):
         # рисует корабль в текущей позиции
         self.screen.blit(self.image, self.rect)
+
+
+    def center_ship(self):
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.x = float(self.rect.x)
